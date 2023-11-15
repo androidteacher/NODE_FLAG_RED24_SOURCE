@@ -8,7 +8,7 @@ const { escape } = require('mysql');
 
 const app = express();
 const port = 3000;
-const jwtSecretKey = '3a2a537576392c0fa9974fe3e73f0678';
+const jwtSecretKey = 'REDACTED';
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
